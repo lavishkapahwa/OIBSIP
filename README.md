@@ -155,3 +155,44 @@ The dataset contains 500 ecommerce customer records and 7 columns, including:
 The complete project is available in:
 
 `Customer_Segmentation.ipynb`
+
+## 🧹 Project 3: Data Cleaning
+
+### Project Overview
+This project focuses on cleaning and preparing a concert tours dataset for further analysis.
+
+### Data Cleaning Tasks Performed
+- Checked the dataset structure and data types.
+- Identified and handled missing values.
+- Checked for duplicate records.
+- Cleaned and standardized column names.
+- Converted gross-related columns from text to numeric format.
+- Cleaned the Peak and All Time Peak columns by removing reference markers.
+- Created separate Start Year and End Year columns from the Year(s) column.
+- Identified possible outliers using the IQR method.
+- Retained valid outliers because they may represent genuine high-performing concert tours.
+- Saved the cleaned dataset as a new CSV file.
+
+### Dataset
+The dataset contains information about major concert tours, including:
+
+- Rank
+- Peak
+- All Time Peak
+- Actual Gross
+- Adjusted Gross
+- Artist
+- Tour Title
+- Year(s)
+- Number of Shows
+- Average Gross
+
+### Tools and Technologies
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
+
+### Project Files
+- `Data_Cleaning_Project.ipynb`
+- `Cleaned_Concert_Tours_Data.csv`

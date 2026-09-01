@@ -107,3 +107,51 @@ The EDA provided useful insights into retail sales performance, profitability, c
 ---
 
 **Oasis Infobyte Data Analytics Internship — Project 1**
+
+## 📊 Project 2: Customer Segmentation Using K-Means Clustering
+
+### Project Overview
+This project focuses on segmenting ecommerce customers into different groups based on their online behaviour, membership duration, and yearly spending.
+
+### Objectives
+- Understand and inspect the customer dataset.
+- Check for missing and duplicate values.
+- Select relevant numerical features for clustering.
+- Standardize the data using StandardScaler.
+- Use the Elbow Method to determine the suitable number of clusters.
+- Apply the K-Means clustering algorithm.
+- Analyze customer behaviour in each cluster.
+- Create visualizations to understand the customer segments.
+- Provide business insights and marketing recommendations.
+
+### Dataset
+The dataset contains 500 ecommerce customer records and 7 columns, including:
+
+- Email
+- Address
+- Avatar
+- Time on App
+- Time on Website
+- Length of Membership
+- Yearly Amount Spent
+
+### Key Findings
+- The customers were divided into 4 clusters using K-Means.
+- Cluster 1 represents high-value customers with the highest yearly spending and longer membership duration.
+- Cluster 0 represents customers with lower spending and shorter membership duration.
+- Cluster 2 is the largest customer group.
+- Cluster 3 has higher website activity with moderate-to-high spending.
+
+### Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+### Project File
+The complete project is available in:
+
+`Customer_Segmentation.ipynb`
